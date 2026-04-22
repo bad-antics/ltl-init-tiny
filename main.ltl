@@ -1,0 +1,15 @@
+// ltl-init-tiny/main.ltl
+//
+// Minimal PID-1 init for containers — signal fanout + reap.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-init-tiny v0.1.0")
+    io::println("Minimal PID-1 init for containers — signal fanout + reap.")
+    0
+}
